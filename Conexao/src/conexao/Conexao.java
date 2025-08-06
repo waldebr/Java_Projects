@@ -8,6 +8,8 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 
 
+
+
 /**
  * 
  *
@@ -18,7 +20,8 @@ public class Conexao {
     final private String driver = "com.mysql.jdbc.Driver";
     final private String url = "jdbc:mysql://localhost/clientes";
     final private String user = "root";
-    final private String senha = "usbw";
+  //  final private String senha = "usbw"; *com senha
+    final private String senha = ""; //sem senha
         private Connection conexao;
     public Statement statement;
     public ResultSet resultset;
@@ -54,15 +57,13 @@ public void desconecta() {
 
 public void executaSQL(String sql) {
     try{
-        statement = conexao.createStatement(ResultSet.TYPE_SCROOL_SENSITIVE,ResultSet.CONCUR_READ_ONLY);
+        statement = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+    //   statement = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY ); *precisa caçar as biblioteca
         resultset = statement.executeQuery(sql);
     }catch(SQLException excecao){
         JOptionPane.showMessageDialog(null,"erro no comando SQL\n"+excecao,"mensagem do programa",JOptionPane.INFORMATION_MESSAGE);
     }
 }
-
-
-
 
 }
 
