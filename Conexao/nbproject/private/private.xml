@@ -1,22 +1,10 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/dti/Downloads/Conexao/src/conexao/Conexao.java</file>
-            <file>file:/C:/Users/dti/Downloads/Conexao/src/control/frmTela.java</file>
+            <file>file:/C:/Users/dti/Downloads/Java_Projects-main/Java_Projects-main/Conexao/src/conexao/Conexao.java</file>
+            <file>file:/C:/Users/dti/Downloads/Java_Projects-main/Java_Projects-main/Conexao/src/controle/frmTela.java</file>
         </group>
     </open-files>
 </project-private>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/waldemar/Java_Projects/Conexao/src/controle/frmTela.java</file>
-        </group>
-    </open-files>
-</project-private>
->>>>>>> d2c58c4 (computador de casa)
